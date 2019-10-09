@@ -15,6 +15,8 @@ public class AirportApp {
             System.exit(-1);
         }
 
+        Configuration config = new Configuration();
+
         Job job = Job.getInstance();
         job.setJarByClass(AirportApp.class);
         job.setJobName("AirportApp");
