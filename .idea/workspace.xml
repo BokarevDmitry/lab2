@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/output/_SUCCESS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/part-r-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output/part-r-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" afterPath="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" />
-    </list>
+    <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
