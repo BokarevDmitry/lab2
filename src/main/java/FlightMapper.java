@@ -9,6 +9,6 @@ public class FlightMapper extends Mapper<Object, Text, Text, Text> {
     @Override
     protected void map(Object key, Text value, Mapper.Context context) throws IOException, InterruptedException {
         String[] pieces = value.toString().split(",");
-        context.write(new Text(pieces[14]), new Text(pieces[18]));
+        context.write(new Text(pieces[14]), new Text("delayTime " + pieces[18]));
     }
 }

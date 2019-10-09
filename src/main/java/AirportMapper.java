@@ -9,6 +9,6 @@ public class AirportMapper extends Mapper<Object, Text, Text, Text> {
     @Override
     protected void map(Object key, Text value, Mapper.Context context) throws IOException, InterruptedException {
         String[] pieces = value.toString().split(",");
-        context.write(new Text(pieces[0]), new Text(pieces[1]));
+        context.write(new Text(pieces[0]), new Text("airportName " + pieces[1]));
     }
 }
