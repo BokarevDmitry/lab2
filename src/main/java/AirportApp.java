@@ -16,13 +16,13 @@ public class AirportApp {
 
         Job job = Job.getInstance();
         job.setJarByClass(AirportApp.class);
-        job.setJobName("Airport");
+        job.setJobName("AirportApp");
 
-        //FileInputFormat.addInputPath(job, new Path(args[0]));
+        job.setReducerClass(ReduceJoiner.class);
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, AirportMapper.class);
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
-        job.setMapperClass(FlightMapper.class);
-        job.setReducerClass(WordReducer.class);
+        MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, FlightMapper.class);
+        FileOutputFormat.setOutputPath(job, new Path(args[2]));
+
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
