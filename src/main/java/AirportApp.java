@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 public class AirportApp {
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.err.println("Usage: AirportApp <input path> <output path>");
+            System.err.println("Usage: AirportApp <input> <input> <output>");
             System.exit(-1);
         }
 
@@ -19,7 +19,8 @@ public class AirportApp {
         job.setJarByClass(AirportApp.class);
         job.setJobName("Airport");
 
-        FileInputFormat.addInputPath(job, new Path(args[0]));
+        //FileInputFormat.addInputPath(job, new Path(args[0]));
+        MultipleInputs.addInputPath(job, new Path(args[0]), );
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
         job.setMapperClass(WordMapper.class);
         job.setReducerClass(WordReducer.class);
