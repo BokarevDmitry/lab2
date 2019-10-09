@@ -13,13 +13,16 @@ public class AirportApp {
             System.err.println("Usage: AirportApp <input path> <output path>");
             System.exit(-1);
         }
+
         Job job = Job.getInstance();
-        job.setJarByClass(WordCountApp.class);
+        job.setJarByClass(AirportApp.class);
         job.setJobName("Airport");
+
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
         job.setMapperClass(WordMapper.class);
         job.setReducerClass(WordReducer.class);
+
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
         job.setNumReduceTasks(2);
