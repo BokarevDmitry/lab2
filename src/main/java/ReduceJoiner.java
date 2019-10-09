@@ -6,7 +6,7 @@ import org.apache.hadoop.io.Text;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class ReduceJoiner extends org.apache.hadoop.mapreduce.Reducer<Text, IntWritable, Text, LongWritable> {
+public class ReduceJoiner extends Reducer<Text, IntWritable, Text, LongWritable> {
     @Override
     protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
         long count=0;
