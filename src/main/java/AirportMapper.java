@@ -10,6 +10,5 @@ public class AirportMapper extends Mapper<LongWritable, Text, Text, IntWritable>
     protected void map(LongWritable key, Text value, Mapper.Context context) throws IOException, InterruptedException {
         String[] pieces = value.toString().split(",");
         context.write(new Text(pieces[0]), new Text(pieces[1]));
-
     }
 }

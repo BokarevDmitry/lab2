@@ -8,9 +8,7 @@ import java.io.IOException;
 public class FlightMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
     @Override
     protected void map(LongWritable key, Text value, Mapper.Context context) throws IOException, InterruptedException {
-        String[] words = value.toString().replaceAll("[^a-zA-Zа-яА-Я0-9\\s+]","").toLowerCase().split("\\s");
-        for (String word:words) {
-            context.write(new Text(word), new IntWritable(1));
-        }
+        String[] pieces = value.toString().split(",");
+        context.write(new Text(pieces[0]), new Text(pieces[1]));
     }
 }
