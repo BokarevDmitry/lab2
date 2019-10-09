@@ -5,7 +5,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-public class WordMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+public class FlightMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
     @Override
     protected void map(LongWritable key, Text value, Mapper.Context context) throws IOException, InterruptedException {
         String[] words = value.toString().replaceAll("[^a-zA-Zа-яА-Я0-9\\s+]","").toLowerCase().split("\\s");
