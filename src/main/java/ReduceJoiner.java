@@ -19,7 +19,7 @@ public class ReduceJoiner extends Reducer<Text, Text, Text, Text> {
             else if (pieces[0].equals("delayTime")) {
                     timeDelay = pieces[1];
             }
-            context.write( new Text(timeDelay), new Text(airportName));
+            context.write(new Text(airportName), new Text(timeDelay));
         }
     }
 }
