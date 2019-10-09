@@ -1,6 +1,7 @@
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
+import
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
@@ -16,6 +17,11 @@ public class AirportApp {
         }
 
         Configuration config = new Configuration();
+        FileSystem hdfs = FileSystem.get(confi); // получаем конфигурацию
+        // Осторожно! Как-никак удаляем директорию - вдруг там что полезное =)
+        if (hdfs.exists(outputFile)) { // если существует,
+            hdfs.delete(outputFigle, true); // то удаляем
+        }
 
         Job job = Job.getInstance();
         job.setJarByClass(AirportApp.class);
