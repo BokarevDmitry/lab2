@@ -20,7 +20,7 @@ public class AirportApp {
         FileSystem hdfs = FileSystem.get(confi); // получаем конфигурацию
         // Осторожно! Как-никак удаляем директорию - вдруг там что полезное =)
         if (hdfs.exists(outputFile)) { // если существует,
-            hdfs.delete(outputFigle, true); // то удаляем
+            hdfs.delete(output, true); // то удаляем
         }
 
         Job job = Job.getInstance();
