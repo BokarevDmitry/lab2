@@ -19,8 +19,8 @@ public class AirportApp {
         Configuration config = new Configuration();
         FileSystem hdfs = FileSystem.get(config); // получаем конфигурацию
         // Осторожно! Как-никак удаляем директорию - вдруг там что полезное =)
-        if (hdfs.exists("/output")) { // если существует,
-            hdfs.delete(output, true); // то удаляем
+        if (hdfs.exists(new Path("hdfs://localhost:9000/user/dima/output"))) { // если существует,
+            hdfs.delete(new Path("hdfs://localhost:9000/user/dima/output"), true); // то удаляем
         }
 
         Job job = Job.getInstance();
