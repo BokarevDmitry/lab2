@@ -12,7 +12,7 @@ public class ReduceJoiner extends Reducer<Text, Text, Text, Text> {
         String airportName = "";
         String timeDelay = "";
         for (Text value:values) {
-            String pieces[] = value.toString().split(" ");
+            String pieces[] = value.toString().split(";");
             if (pieces[0].equals("airportName")) {
                 airportName = pieces[1];
             }

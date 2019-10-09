@@ -10,7 +10,7 @@ public class FlightMapper extends Mapper<Object, Text, Text, Text> {
     protected void map(Object key, Text value, Mapper.Context context) throws IOException, InterruptedException {
         String[] pieces = value.toString().split(",");
         if (pieces[18].length() > 0) {
-            context.write(new Text(pieces[14]), new Text("delayTime " + pieces[18]));
+            context.write(new Text(pieces[14]), new Text("delayTime;" + pieces[18]));
         }
     }
 }
