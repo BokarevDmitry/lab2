@@ -20,6 +20,6 @@ public class ReduceJoiner extends Reducer<Text, Text, Text, Text> {
                     timeDelay = pieces[1];
             }
         }
-        context.write(new Text(key), new Text(timeDelay));
+        context.write(new Text(airportName), new Text(timeDelay));
     }
 }
