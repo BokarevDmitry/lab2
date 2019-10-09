@@ -1,7 +1,7 @@
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
-import java.nio
+import org.apache.hadoop.fs.FileSystem;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
@@ -17,9 +17,9 @@ public class AirportApp {
         }
 
         Configuration config = new Configuration();
-        FileSystem hdfs = FileSystem.get(confi); // получаем конфигурацию
+        FileSystem hdfs = FileSystem.get(config); // получаем конфигурацию
         // Осторожно! Как-никак удаляем директорию - вдруг там что полезное =)
-        if (hdfs.exists(outputFile)) { // если существует,
+        if (hdfs.exists("/output")) { // если существует,
             hdfs.delete(output, true); // то удаляем
         }
 
