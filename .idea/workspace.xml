@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" afterPath="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" />
+      <change beforePath="$PROJECT_DIR$/output/_SUCCESS" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/output/part-r-00000" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/output/part-r-00001" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +55,8 @@
       <file leaf-file-name="ReduceJoiner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="324">
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -378,8 +380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="324">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
