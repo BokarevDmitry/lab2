@@ -6,15 +6,10 @@ import org.apache.hadoop.io.Text;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class ReduceJoiner extends Reducer<Text, IntWritable, Text, LongWritable> {
+public class ReduceJoiner extends Reducer<Text, Text, Text, Text> {
     @Override
-    protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
-        long count=0;
-        Iterator iter = values.iterator();
-        while(iter.hasNext()) {
-            iter.next();
-            count++;
-        }
-        context.write(key, new LongWritable(count));
+    protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+        String airportName = "";
+        
     }
 }

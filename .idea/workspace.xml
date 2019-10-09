@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportMapper.java" afterPath="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightMapper.java" afterPath="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" afterPath="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoiner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,9 +84,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Reducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" />
       </list>
     </option>
   </component>
@@ -380,7 +379,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoiner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
