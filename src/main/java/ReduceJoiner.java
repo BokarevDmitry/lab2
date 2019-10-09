@@ -11,6 +11,7 @@ public class ReduceJoiner extends Reducer<Text, Text, Text, Text> {
     protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         String airportName = "";
         String timeDelay = "";
+        Double time = 0.00;
         for (Text value:values) {
             String pieces[] = value.toString().split(";");
             if (pieces[0].equals("airportName")) {
@@ -18,10 +19,11 @@ public class ReduceJoiner extends Reducer<Text, Text, Text, Text> {
             }
             else if (pieces[0].equals("delayTime")) {
                     timeDelay = pieces[1];
+                    time += Float.parseFloat(pieces[1]);
             }
-            if (timeDelay.length() > 0) {
-                context.write(new Text(airportName), new Text(timeDelay));
-            }
+        }
+        if (time>0) {
+            context.write(new Text(airportName), new Text(time.toString()));
         }
     }
 }
