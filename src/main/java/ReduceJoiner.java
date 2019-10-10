@@ -34,7 +34,7 @@ public class ReduceJoiner extends Reducer<Text, Text, Text, Text> {
             }
         }
         if (time>0) {
-            delayLine = "Total DelayTime = " + time + " Min = " + minTime + " Max = " + maxTime;
+            delayLine = "Total DelayTime = " + time + " Average = " + time/count + " Min = " + minTime + " Max = " + maxTime;
             context.write(new Text(airportName), new Text(delayLine));
         }
     }
