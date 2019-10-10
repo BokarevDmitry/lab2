@@ -14,7 +14,7 @@ public class ReduceJoiner extends Reducer<Text, Text, Text, Text> {
 
         int count = 0;
         Double time = 0.00;
-        Double minTime = 0.00;
+        Double minTime = 9999.00;
         Double maxTime = 0.00;
 
 
