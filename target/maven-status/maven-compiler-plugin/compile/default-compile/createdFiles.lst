@@ -1,8 +1,8 @@
-FlightPartitioner.class
-ReduceJoiner.class
-AirportApp.class
-FlightMapper.class
-TextPair.class
-AirportMapper.class
-CSVParcer.class
-FlightComparator.class
+pack/AirportMapper.class
+pack/AirportApp.class
+pack/FlightComparator.class
+pack/ReduceJoiner.class
+pack/FlightPartitioner.class
+pack/CSVParser.class
+pack/FlightMapper.class
+pack/TextPair.class
