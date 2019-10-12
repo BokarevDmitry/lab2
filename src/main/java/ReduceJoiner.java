@@ -15,6 +15,7 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
         Text airportName = new Text(iter.next());
         while (iter.hasNext()) {
             String timeDelayInfo = iter.next().toString();
+            System.out.print(timeDelayInfo);
             double timeDelay = Float.parseFloat(timeDelayInfo);
 
             count++;
