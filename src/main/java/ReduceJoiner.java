@@ -23,7 +23,7 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
             if (timeDelay>maxTime) maxTime=timeDelay;
         }
         if (count>0) {
-            String delayLine = "Average = " + time/count + " Min = " + minTime + " Max = " + maxTime;
+            String delayLine = "Average = " + Math.round(time/count) + " Min = " + minTime + " Max = " + maxTime;
             context.write(airportName, new Text(delayLine));
         }
     }
