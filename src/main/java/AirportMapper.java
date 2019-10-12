@@ -9,7 +9,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, TextPair, Text> {
     protected void map(LongWritable key, Text value, Mapper.Context context) throws IOException, InterruptedException {
         String[] pieces = CSVParser.parseCSV(value);
         if (!pieces[0].equals("Code")) {
-            context.write(new TextPair(CSVParser.getAirportName(pieces[0]), "0"), new Text(CSVParser.getAirportName(pieces[1])));
+            context.write(new TextPair(CSVParser.getAirportName(pieces[0].substring(1)), "0"), new Text(CSVParser.getAirportName(pieces[1])));
         }
     }
 }
