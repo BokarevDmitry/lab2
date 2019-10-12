@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" afterPath="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AirportApp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AirportMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CSVParcer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FlightComparator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FlightMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FlightPartitioner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReduceJoiner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TextPair.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +84,8 @@
       <file leaf-file-name="ReduceJoiner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="288">
+              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -674,8 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="288">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
