@@ -1,8 +1,0 @@
-pack/AirportApp.class
-pack/ReduceJoiner.class
-pack/FlightPartitioner.class
-pack/FlightMapper.class
-pack/TextPair.class
-pack/AirportMapper.class
-pack/FlightComparator.class
-pack/CSVParser.class
