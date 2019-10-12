@@ -1,6 +1,7 @@
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.io.Text;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.Iterator;
 
 public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
@@ -10,6 +11,7 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
         Double time = 0.00;
         Double minTime = Double.MAX_VALUE;
         Double maxTime = 0.00;
+        DecimalFormat f = new DecimalFormat("#.#")
 
         Iterator<Text> iter = values.iterator();
         Text airportName = new Text(iter.next());
