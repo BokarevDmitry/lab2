@@ -5,7 +5,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-public class AirportMapper extends Mapper<Object, Text, Textpair, Text> {
+public class AirportMapper extends Mapper<Object, Text, TextPair, Text> {
     @Override
     protected void map(Object key, Text value, Mapper.Context context) throws IOException, InterruptedException {
         String[] pieces = value.toString().split("\",\"");
