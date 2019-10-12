@@ -4,7 +4,7 @@ import org.apache.hadoop.io.WritableComparable;
 
 public class FlightComparator implements WritableComparator<>{
     public FlightComparator() {
-        f
+
     }
 
     @Override
