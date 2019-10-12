@@ -75,8 +75,8 @@
       <file leaf-file-name="ReduceJoiner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="288">
+              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -606,12 +606,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FlightComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        <state relative-caret-position="90">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,22 +650,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlightComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="216">
+          <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="288">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
