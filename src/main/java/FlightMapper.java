@@ -10,7 +10,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, TextPair, Text> {
         String[] pieces = value.toString().split(",");
         if (!pieces[18].equals("\"ARR_DELAY_NEW\"")) {
             if (pieces[18].length()>0 && Float.parseFloat(pieces[18])>0) {
-                context.write(new TextPair(pieces[14], "0"), new Text(pieces[18]));
+                context.write(new TextPair(pieces[14], "1"), new Text(pieces[18]));
             }
         }
     }
