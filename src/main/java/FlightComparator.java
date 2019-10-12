@@ -7,6 +7,6 @@ public class FlightComparator implements WritableComparator<TextPair>{
 
     @Override
     public int compare(WritableComparable a, WritableComparable b) {
-        
+        return 
     }
 }
