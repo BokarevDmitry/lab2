@@ -4,7 +4,6 @@ import org.apache.hadoop.io.Text;
 public class FlightPartitioner extends Partitioner<TextPair,Text> {
     @Override
     public int getPartition(TextPair key, Text value, int numReduceTasks) {
-        
-        return 0;
+        return (key.hashCode() & Integer.MAX_VALUE) % numReduceTasks;
     }
 }
