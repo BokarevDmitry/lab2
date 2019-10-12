@@ -12,7 +12,7 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
         Double maxTime = 0.00;
 
         Iterator<Text> iter = values.iterator();
-        //Text airportName = new Text(iter.next());
+        Text airportName = new Text(iter.next()).;
         while (iter.hasNext()) {
             String timeDelayInfo = iter.next().toString();
             double timeDelay = Float.parseFloat(timeDelayInfo);
