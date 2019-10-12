@@ -24,7 +24,7 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
         }
         if (count>0) {
             String delayLine = "Total DelayTime = " + time + " Average = " + time/count + " Min = " + minTime + " Max = " + maxTime;
-            context.write(key.getSecond(), new Text(delayLine));
+            context.write(new Text(airportName), new Text(delayLine));
         }
     }
 }
