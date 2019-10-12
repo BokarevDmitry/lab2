@@ -11,7 +11,7 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
         Double time = 0.00;
         Double minTime = Double.MAX_VALUE;
         Double maxTime = 0.00;
-        DecimalFormat f = new DecimalFormat("#.#")
+        DecimalFormat f = new DecimalFormat("#.#");
 
         Iterator<Text> iter = values.iterator();
         Text airportName = new Text(iter.next());
@@ -27,7 +27,7 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
             if (timeDelay>maxTime) maxTime=timeDelay;
         }
         if (count>0) {
-            String delayLine = "Average = " + Math.round(time/count) + " Min = " + minTime + " Max = " + maxTime;
+            String delayLine = "Average = " + f.format(time/count) + " Min = " + minTime + " Max = " + maxTime;
             context.write(airportName, new Text(delayLine));
         }
     }
