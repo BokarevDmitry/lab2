@@ -1,6 +1,7 @@
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
+import java.util.Objects;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparable;
@@ -46,19 +47,17 @@ public class TextPair implements WritableComparable<TextPair>{
     }
 
     @Override
-    public int hashCode() {
-        // TODO Auto-generated method stub
-        return first.hashCode()*163+second.hashCode();
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        TextPair textPair = (TextPair) o;
+        return Objects.equals(first, textPair.first) &&
+                Objects.equals(second, textPair.second);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        // TODO Auto-generated method stub
-        if(obj instanceof TextPair){
-            TextPair tp=(TextPair)obj;
-            return first.equals(tp.getFirst())&&second.equals(tp.getSecond());
-        }
-        return false;
+    public int hashCode() {
+        return Objects.hash(first, second);
     }
 
     @Override
@@ -80,8 +79,6 @@ public class TextPair implements WritableComparable<TextPair>{
         first.write(out);
         second.write(out);
     }
-
-
 
 
     @Override

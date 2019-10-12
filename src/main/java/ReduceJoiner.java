@@ -8,7 +8,7 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
     protected void reduce(TextPair key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         int count = 0;
         Double time = 0.00;
-        Double minTime = 9999.00;
+        Double minTime = Double.MAX_VALUE;
         Double maxTime = 0.00;
 
         Iterator<Text> iter = values.iterator();
