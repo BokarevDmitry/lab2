@@ -1,12 +1,14 @@
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparator;
 import org.apache.hadoop.io.WritableComparable;
 
-public class FlightComparator implements WritableComparator<TextPair>{
+public class FlightComparator implements WritableComparator<>{
     public FlightComparator() {
+        f
     }
 
     @Override
-    public int compare(WritableComparable a, WritableComparable b) {
-        return 
+    public int compare(TextPair a, TextPair b) {
+        return a.first.compareTo(b.first);
     }
 }
