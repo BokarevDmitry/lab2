@@ -1,3 +1,5 @@
+package pack;
+
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.io.Text;
 import java.io.IOException;

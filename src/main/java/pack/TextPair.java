@@ -1,3 +1,5 @@
+package pack;
+
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
@@ -17,7 +19,6 @@ public class TextPair implements WritableComparable<TextPair>{
     }
 
     public TextPair(Text first, Text second) {
-        //super();
         this.first = first;
         this.second = second;
     }
@@ -62,20 +63,17 @@ public class TextPair implements WritableComparable<TextPair>{
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return first+"\t"+second;
     }
 
     @Override
     public void readFields(DataInput in) throws IOException {
-        // TODO Auto-generated method stub
         first.readFields(in);
         second.readFields(in);
     }
 
     @Override
     public void write(DataOutput out) throws IOException {
-        // TODO Auto-generated method stub
         first.write(out);
         second.write(out);
     }
@@ -83,7 +81,6 @@ public class TextPair implements WritableComparable<TextPair>{
 
     @Override
     public int compareTo(TextPair tp) {
-        // TODO Auto-generated method stub
         int cmp=first.compareTo(tp.getFirst());
         if(cmp!=0)
             return cmp;
@@ -94,5 +91,4 @@ public class TextPair implements WritableComparable<TextPair>{
     public TextPair reverse() {
         return new TextPair(second,first);
     }
-
 }

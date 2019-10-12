@@ -1,3 +1,5 @@
+package pack;
+
 import org.apache.hadoop.io.WritableComparator;
 import org.apache.hadoop.io.WritableComparable;
 
