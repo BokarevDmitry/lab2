@@ -12,8 +12,5 @@ public class AirportMapper extends Mapper<Object, Text, TextPair, Text> {
         if (!pieces[0].equals("Code,Description")) {
             context.write(new TextPair(pieces[0].substring(1), "1"), new Text(pieces[1]));
         }
-        else {
-            context.write(new Text("code"), new Text("airportName;descrip"));
-        }
     }
 }
