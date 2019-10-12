@@ -7,7 +7,7 @@ public class CSVParser {
         return s.toString().split(",");
     }
 
-    public static String[] getAirport (Text s) {
-        return s.
+    public static String getAirportName (String s) {
+        return s.replaceAll("[\"]","");
     }
 }
