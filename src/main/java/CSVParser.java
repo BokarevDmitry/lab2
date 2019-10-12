@@ -6,6 +6,6 @@ public class CSVParser {
     }
 
     public static String getAirportName (String s) {
-        return s;
+        return s.replaceAll("[\"]","");
     }
 }
