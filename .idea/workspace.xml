@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/AirportMapper.java" afterPath="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FlightMapper.java" afterPath="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +42,8 @@
       <file leaf-file-name="AirportMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="162">
+              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,8 +152,8 @@
         <option value="$PROJECT_DIR$/src/main/java/TextPair.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/CSVParcer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
       </list>
     </option>
@@ -652,16 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoiner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -672,10 +663,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
