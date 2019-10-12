@@ -8,7 +8,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, TextPair, Text> {
     @Override
     protected void map(LongWritable key, Text value, Mapper.Context context) throws IOException, InterruptedException {
         String[] pieces = CSVParser.parseAirports(value);
-        if (!pieces[0].equals("Code, Description")) {
+        if (!pieces[0].equals("Code,Description")) {
             context.write(new TextPair(CSVParser.getAirportName(pieces[0]), "0"), new Text(CSVParser.getAirportName(pieces[1])));
         }
     }
