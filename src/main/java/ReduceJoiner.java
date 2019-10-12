@@ -13,9 +13,10 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
 
         Iterator<Text> iter = values.iterator();
         Text airportName = new Text(iter.next());
+        System.out.println("airport Name - " + airportName);
         while (iter.hasNext()) {
             String timeDelayInfo = iter.next().toString();
-            System.out.print(timeDelayInfo);
+            System.out.println(timeDelayInfo);
             double timeDelay = Float.parseFloat(timeDelayInfo);
 
             count++;
