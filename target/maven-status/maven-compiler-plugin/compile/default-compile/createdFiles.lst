@@ -1,8 +1,4 @@
 bokarev/FlightMapper.class
-bokarev/CSVParser.class
-bokarev/FlightComparator.class
-bokarev/ReduceJoiner.class
 bokarev/FlightPartitioner.class
-bokarev/AirportApp.class
 bokarev/TextPair.class
 bokarev/AirportMapper.class
