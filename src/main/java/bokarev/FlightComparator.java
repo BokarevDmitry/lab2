@@ -12,6 +12,6 @@ public class FlightComparator extends WritableComparator{
     public int compare(WritableComparable a, WritableComparable b) {
         TextPair a1 = (TextPair) a;
         TextPair b1 = (TextPair) b;
-        return a1.first.compareTo(b1.first);
+        return a1.code.compareTo(b1.code);
     }
 }

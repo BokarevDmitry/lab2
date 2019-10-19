@@ -10,24 +10,20 @@ import org.apache.hadoop.io.WritableComparable;
 
 
 public class TextPair implements WritableComparable<TextPair>{
-    public  Text first;
-    public  Text second;
+    public  Text code;
+    public  Text flag;
 
-    public TextPair(Text first, Text second) {
-        this.first = first;
-        this.second = second;
-    }
-    public TextPair(String first,String second){
-        this.first=new Text(first);
-        this.second=new Text(second);
+    public TextPair(String code, String flag){
+        this.code =new Text(code);
+        this.flag =new Text(flag);
     }
 
-    public Text getFirst() {
-        return first;
+    public Text getCode() {
+        return code;
     }
 
-    public Text getSecond() {
-        return second;
+    public Text getFlag() {
+        return flag;
     }
 
 
@@ -36,39 +32,39 @@ public class TextPair implements WritableComparable<TextPair>{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         TextPair textPair = (TextPair) o;
-        return Objects.equals(first, textPair.first) &&
-                Objects.equals(second, textPair.second);
+        return Objects.equals(code, textPair.code) &&
+                Objects.equals(flag, textPair.flag);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(first, second);
+        return Objects.hash(code, flag);
     }
 
     @Override
     public String toString() {
-        return first+"\t"+second;
+        return code +"\t"+ flag;
     }
 
     @Override
     public void readFields(DataInput in) throws IOException {
-        first.readFields(in);
-        second.readFields(in);
+        code.readFields(in);
+        flag.readFields(in);
     }
 
     @Override
     public void write(DataOutput out) throws IOException {
-        first.write(out);
-        second.write(out);
+        code.write(out);
+        flag.write(out);
     }
 
 
     @Override
     public int compareTo(TextPair tp) {
-        int cmp=first.compareTo(tp.getFirst());
+        int cmp= code.compareTo(tp.getCode());
         if(cmp!=0)
             return cmp;
-        return second.compareTo(tp.getSecond());
+        return flag.compareTo(tp.getFlag());
 
     }
 }
