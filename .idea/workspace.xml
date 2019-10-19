@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="" />
+    <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/bokarev/TextPair.java" afterPath="$PROJECT_DIR$/src/main/java/bokarev/TextPair.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/FlightMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+              <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/CSVParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -70,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/FlightComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -80,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/FlightPartitioner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+              <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -102,10 +104,10 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1571471260000" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1571471260000" expanded="false" signature="131:503" ph="..." />
-                <marker date="1571471260000" expanded="true" signature="555:562" ph="{}" />
-                <marker date="1571471260000" expanded="true" signature="624:1898" ph="{...}" />
+                <marker date="1571473006000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1571473006000" expanded="false" signature="131:503" ph="..." />
+                <marker date="1571473006000" expanded="true" signature="555:562" ph="{}" />
+                <marker date="1571473006000" expanded="true" signature="624:1898" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -114,11 +116,11 @@
       <file leaf-file-name="TextPair.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/TextPair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="342">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="e#1103#1104#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,10 +169,10 @@
         <option value="$PROJECT_DIR$/src/main/java/bokarev/AirportApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/bokarev/ReduceJoiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/bokarev/FlightMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bokarev/TextPair.java" />
         <option value="$PROJECT_DIR$/src/main/java/bokarev/FlightComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/bokarev/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/bokarev/CSVParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bokarev/TextPair.java" />
       </list>
     </option>
   </component>
@@ -524,10 +526,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1571471260000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571471260000" expanded="false" signature="131:321" ph="..." />
-            <marker date="1571471260000" expanded="true" signature="430:437" ph="{}" />
-            <marker date="1571471260000" expanded="true" signature="550:812" ph="{...}" />
+            <marker date="1571473006000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1571473006000" expanded="false" signature="131:321" ph="..." />
+            <marker date="1571473006000" expanded="true" signature="430:437" ph="{}" />
+            <marker date="1571473006000" expanded="true" signature="550:892" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -537,14 +539,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1571471260000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571471260000" expanded="true" signature="207:214" ph="{}" />
-            <marker date="1571471260000" expanded="false" signature="259:270" ph=" { " />
-            <marker date="1571471260000" expanded="false" signature="301:307" ph=" }" />
-            <marker date="1571471260000" expanded="false" signature="357:368" ph=" { " />
-            <marker date="1571471260000" expanded="false" signature="403:409" ph=" }" />
-            <marker date="1571471260000" expanded="false" signature="460:471" ph=" { " />
-            <marker date="1571471260000" expanded="false" signature="754:760" ph=" }" />
+            <marker date="1571473006000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1571473006000" expanded="true" signature="207:214" ph="{}" />
+            <marker date="1571473006000" expanded="false" signature="259:270" ph=" { " />
+            <marker date="1571473006000" expanded="false" signature="301:307" ph=" }" />
+            <marker date="1571473006000" expanded="false" signature="357:368" ph=" { " />
+            <marker date="1571473006000" expanded="false" signature="403:409" ph=" }" />
+            <marker date="1571473006000" expanded="false" signature="460:471" ph=" { " />
+            <marker date="1571473006000" expanded="false" signature="829:835" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -554,10 +556,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1571471260000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571471260000" expanded="false" signature="131:321" ph="..." />
-            <marker date="1571471260000" expanded="true" signature="428:435" ph="{}" />
-            <marker date="1571471260000" expanded="true" signature="548:926" ph="{...}" />
+            <marker date="1571473006000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1571473006000" expanded="false" signature="131:321" ph="..." />
+            <marker date="1571473006000" expanded="true" signature="428:435" ph="{}" />
+            <marker date="1571473006000" expanded="true" signature="548:926" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -567,10 +569,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1571471260000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571471260000" expanded="false" signature="131:288" ph="..." />
-            <marker date="1571471260000" expanded="true" signature="388:395" ph="{}" />
-            <marker date="1571471260000" expanded="true" signature="554:1495" ph="{...}" />
+            <marker date="1571473006000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1571473006000" expanded="false" signature="131:288" ph="..." />
+            <marker date="1571473006000" expanded="true" signature="388:395" ph="{}" />
+            <marker date="1571473006000" expanded="true" signature="554:1495" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -580,10 +582,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1571471260000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571471260000" expanded="false" signature="131:205" ph="..." />
-            <marker date="1571471260000" expanded="true" signature="307:314" ph="{}" />
-            <marker date="1571471260000" expanded="true" signature="390:473" ph="{...}" />
+            <marker date="1571473006000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1571473006000" expanded="false" signature="131:205" ph="..." />
+            <marker date="1571473006000" expanded="true" signature="307:314" ph="{}" />
+            <marker date="1571473006000" expanded="true" signature="390:473" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -609,10 +611,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1571471260000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571471260000" expanded="false" signature="131:503" ph="..." />
-            <marker date="1571471260000" expanded="true" signature="555:562" ph="{}" />
-            <marker date="1571471260000" expanded="true" signature="624:1898" ph="{...}" />
+            <marker date="1571473006000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1571473006000" expanded="false" signature="131:503" ph="..." />
+            <marker date="1571473006000" expanded="true" signature="555:562" ph="{}" />
+            <marker date="1571473006000" expanded="true" signature="624:1898" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -628,7 +630,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/FlightPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+          <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
           <folding />
         </state>
       </provider>
@@ -636,7 +638,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/FlightComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -652,7 +654,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/FlightMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -680,18 +682,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/CSVParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/TextPair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="342">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#1103#1104#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
           </folding>
         </state>
       </provider>
