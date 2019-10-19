@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bokarev/AirportMapper.java" afterPath="$PROJECT_DIR$/src/main/java/bokarev/AirportMapper.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bokarev/TextPair.java" afterPath="$PROJECT_DIR$/src/main/java/bokarev/TextPair.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bokarev/AirportMapper.class" afterPath="$PROJECT_DIR$/target/classes/bokarev/AirportMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bokarev/TextPair.class" afterPath="$PROJECT_DIR$/target/classes/bokarev/TextPair.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,11 +94,11 @@
       <file leaf-file-name="TextPair.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/TextPair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="576">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -474,12 +476,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1571474116000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571474116000" expanded="false" signature="131:321" ph="..." />
-            <marker date="1571474116000" expanded="true" signature="430:437" ph="{}" />
-            <marker date="1571474116000" expanded="true" signature="550:1026" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -496,10 +493,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1571474116000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571474116000" expanded="false" signature="131:321" ph="..." />
-            <marker date="1571474116000" expanded="true" signature="428:435" ph="{}" />
-            <marker date="1571474116000" expanded="true" signature="548:926" ph="{...}" />
+            <marker date="1571474310173" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1571474310173" expanded="false" signature="131:321" ph="..." />
+            <marker date="1571474310173" expanded="true" signature="428:435" ph="{}" />
+            <marker date="1571474310173" expanded="true" signature="548:926" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -516,12 +513,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1571474116000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571474116000" expanded="false" signature="131:205" ph="..." />
-            <marker date="1571474116000" expanded="true" signature="307:314" ph="{}" />
-            <marker date="1571474116000" expanded="true" signature="390:473" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,11 +611,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/TextPair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="576">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
           </folding>
         </state>
       </provider>
