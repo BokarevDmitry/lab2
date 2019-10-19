@@ -13,9 +13,9 @@ public class AirportMapper extends Mapper<LongWritable, Text, TextPair, Text> {
     protected void map(LongWritable key, Text value, Mapper.Context context) throws IOException, InterruptedException {
         String[] columns = CSVParser.parseAirports(value);
         String airportCode = CSVParser.getAirCode(columns);
-        String airportName = CSVParser.getAirportName(columns);
 
         if (!airportCode.contains(DESCRIPTION_LINE)) {
+            String airportName = CSVParser.getAirportName(columns);
             context.write(new TextPair(CSVParser.removeQuotes(airportCode), "0"), new Text(CSVParser.removeQuotes(airportName)));
         }
     }
