@@ -1,5 +1,4 @@
-
-
+package bokarev;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.io.Text;
 import java.io.IOException;
@@ -17,8 +16,10 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
 
         Iterator<Text> iter = values.iterator();
         Text airportName = new Text(iter.next());
+        System.out.println("Name Airport - " + airportName.toString());
         while (iter.hasNext()) {
             String timeDelayInfo = iter.next().toString();
+            System.out.println(timeDelayInfo);
             double timeDelay = Float.parseFloat(timeDelayInfo);
 
             count++;

@@ -1,8 +1,8 @@
-/home/dima/mavenproj/lab2/src/main/java/FlightPartitioner.java
-/home/dima/mavenproj/lab2/src/main/java/FlightMapper.java
-/home/dima/mavenproj/lab2/src/main/java/ReduceJoiner.java
-/home/dima/mavenproj/lab2/src/main/java/CSVParser.java
-/home/dima/mavenproj/lab2/src/main/java/AirportMapper.java
-/home/dima/mavenproj/lab2/src/main/java/FlightComparator.java
-/home/dima/mavenproj/lab2/src/main/java/AirportApp.java
-/home/dima/mavenproj/lab2/src/main/java/TextPair.java
+/home/dima/mavenproj/lab2/src/main/java/bokarev/FlightMapper.java
+/home/dima/mavenproj/lab2/src/main/java/bokarev/CSVParser.java
+/home/dima/mavenproj/lab2/src/main/java/bokarev/FlightPartitioner.java
+/home/dima/mavenproj/lab2/src/main/java/bokarev/AirportMapper.java
+/home/dima/mavenproj/lab2/src/main/java/bokarev/TextPair.java
+/home/dima/mavenproj/lab2/src/main/java/bokarev/ReduceJoiner.java
+/home/dima/mavenproj/lab2/src/main/java/bokarev/AirportApp.java
+/home/dima/mavenproj/lab2/src/main/java/bokarev/FlightComparator.java
