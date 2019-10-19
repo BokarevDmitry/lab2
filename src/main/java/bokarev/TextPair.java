@@ -13,7 +13,7 @@ public class TextPair implements WritableComparable<TextPair>{
     public  Text code;
     public  Text flag;
 
-
+    
 
     public TextPair(String code, String second){
         this.code =new Text(code);
