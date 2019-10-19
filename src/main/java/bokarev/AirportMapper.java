@@ -15,7 +15,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, TextPair, Text> {
             String airportName = CSVParser.getAirportName(pieces);
             airportName = CSVParser.removeQuotes(airportName);
 
-            String airportCode = CSVParser.getAirportCode(pieces);
+            String airportCode = CSVParser.getAirCode(pieces);
             airportCode = CSVParser.removeQuotes(airportCode);
 
             context.write(new TextPair(airportCode, "0"), new Text(airportName));

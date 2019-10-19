@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/bokarev/AirportMapper.java" afterPath="$PROJECT_DIR$/src/main/java/bokarev/AirportMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bokarev/TextPair.java" afterPath="$PROJECT_DIR$/src/main/java/bokarev/TextPair.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,18 +51,18 @@
       <file leaf-file-name="AirportMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/AirportMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CSVParser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CSVParser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/CSVParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="252">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -99,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextPair.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TextPair.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/TextPair.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -157,8 +156,8 @@
         <option value="$PROJECT_DIR$/src/main/java/bokarev/FlightMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/bokarev/FlightComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/bokarev/CSVParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bokarev/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/bokarev/TextPair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bokarev/AirportMapper.java" />
       </list>
     </option>
   </component>
@@ -391,7 +390,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2580982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2570533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -485,10 +484,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1571473903000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571473903000" expanded="false" signature="131:321" ph="..." />
-            <marker date="1571473903000" expanded="true" signature="430:437" ph="{}" />
-            <marker date="1571473903000" expanded="true" signature="550:917" ph="{...}" />
+            <marker date="1571474048000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1571474048000" expanded="false" signature="131:321" ph="..." />
+            <marker date="1571474048000" expanded="true" signature="430:437" ph="{}" />
+            <marker date="1571474048000" expanded="true" signature="550:1030" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -506,10 +505,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1571473903000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571473903000" expanded="false" signature="131:321" ph="..." />
-            <marker date="1571473903000" expanded="true" signature="428:435" ph="{}" />
-            <marker date="1571473903000" expanded="true" signature="548:926" ph="{...}" />
+            <marker date="1571474048000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1571474048000" expanded="false" signature="131:321" ph="..." />
+            <marker date="1571474048000" expanded="true" signature="428:435" ph="{}" />
+            <marker date="1571474048000" expanded="true" signature="548:926" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -527,10 +526,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1571473903000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1571473903000" expanded="false" signature="131:205" ph="..." />
-            <marker date="1571473903000" expanded="true" signature="307:314" ph="{}" />
-            <marker date="1571473903000" expanded="true" signature="390:473" ph="{...}" />
+            <marker date="1571474048000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1571474048000" expanded="false" signature="131:205" ph="..." />
+            <marker date="1571474048000" expanded="true" signature="307:314" ph="{}" />
+            <marker date="1571474048000" expanded="true" signature="390:473" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -601,22 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/CSVParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/AirportMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/FlightMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -635,6 +618,22 @@
             <element signature="e#1204#1205#0" expanded="true" />
             <element signature="e#1243#1244#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/AirportMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/CSVParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
