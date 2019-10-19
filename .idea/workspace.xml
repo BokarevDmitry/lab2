@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/lab2.iml" afterPath="$PROJECT_DIR$/.idea/lab2.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportApp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CSVParser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightComparator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightPartitioner.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReduceJoiner.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TextPair.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AirportApp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AirportMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CSVParser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FlightComparator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FlightMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FlightPartitioner.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReduceJoiner.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TextPair.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop-examples-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/hadoop-examples-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-    </list>
+    <list default="true" id="832e96ef-1a7c-463f-89ba-4838f522dad9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,14 +12,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AirportApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirportApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/AirportApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="182">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part-r-00000" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/output/part-r-00000">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,21 +105,6 @@
             <state relative-caret-position="180">
               <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReduceJoiner.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/bokarev/ReduceJoiner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1571227729000" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1571227729000" expanded="false" signature="131:288" ph="..." />
-                <marker date="1571227729000" expanded="true" signature="388:395" ph="{}" />
-                <marker date="1571227729000" expanded="true" signature="554:1495" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -236,6 +207,11 @@
             <path>
               <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
@@ -413,6 +389,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="893" y="51" width="1012" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -426,7 +403,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23418972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23418972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -533,13 +510,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pack/CSVParser.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pack/FlightComparator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pack/AirportMapper.java" />
-    <entry file="file://$PROJECT_DIR$/output/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pack/AirportApp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportApp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoiner.java" />
@@ -705,11 +675,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bokarev/AirportApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="182">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
