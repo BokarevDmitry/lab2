@@ -12,9 +12,7 @@ public class CSVParser {
     public static String removeQuotes (String s) {return s.replaceAll("[\"]", "");}
 
     public static String getAirCode (String[] s) {return s[0];}
-    public static String getAirportName (String[] s) {
-        if (!s[0].contains("Code")) return s[1];
-    }
+    public static String getAirportName (String[] s) { return s[1];}
 
     public static String getAirportCode (String[] s) {return s[14];}
     public static String getDelayTime (String[] s) {return s[18];}
