@@ -16,10 +16,9 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
 
         Iterator<Text> iter = values.iterator();
         Text airportName = new Text(iter.next());
-        System.out.println("Name Airport - " + airportName.toString());
+
         while (iter.hasNext()) {
             String timeDelayInfo = iter.next().toString();
-            System.out.println(timeDelayInfo);
             double timeDelay = Float.parseFloat(timeDelayInfo);
 
             count++;
@@ -27,6 +26,7 @@ public class ReduceJoiner extends Reducer<TextPair, Text, Text, Text> {
             if (timeDelay<minTime) minTime=timeDelay;
             if (timeDelay>maxTime) maxTime=timeDelay;
         }
+
         if (count>0) {
             String delayLine = "Average = " + f.format(time/count) + " Min = " + minTime + " Max = " + maxTime;
             context.write(airportName, new Text(delayLine));
