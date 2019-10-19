@@ -10,20 +10,20 @@ import org.apache.hadoop.io.WritableComparable;
 
 
 public class TextPair implements WritableComparable<TextPair>{
-    public  Text code;
+    public  Text first;
     public  Text second;
 
     public TextPair(Text first, Text second) {
-        this.code = first;
+        this.first = first;
         this.second = second;
     }
     public TextPair(String first,String second){
-        this.code=new Text(first);
+        this.first=new Text(first);
         this.second=new Text(second);
     }
 
     public Text getFirst() {
-        return code;
+        return first;
     }
 
     public Text getSecond() {
@@ -36,36 +36,36 @@ public class TextPair implements WritableComparable<TextPair>{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         TextPair textPair = (TextPair) o;
-        return Objects.equals(code, textPair.code) &&
+        return Objects.equals(first, textPair.first) &&
                 Objects.equals(second, textPair.second);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(code, second);
+        return Objects.hash(first, second);
     }
 
     @Override
     public String toString() {
-        return code+"\t"+second;
+        return first+"\t"+second;
     }
 
     @Override
     public void readFields(DataInput in) throws IOException {
-        code.readFields(in);
+        first.readFields(in);
         second.readFields(in);
     }
 
     @Override
     public void write(DataOutput out) throws IOException {
-        code.write(out);
+        first.write(out);
         second.write(out);
     }
 
 
     @Override
     public int compareTo(TextPair tp) {
-        int cmp=code.compareTo(tp.getFirst());
+        int cmp=first.compareTo(tp.getFirst());
         if(cmp!=0)
             return cmp;
         return second.compareTo(tp.getSecond());
