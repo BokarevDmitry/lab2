@@ -18,6 +18,11 @@ public class TextPair implements WritableComparable<TextPair>{
         this.flag =new Text(flag);
     }
 
+    public TextPair(Text code, Text flag){
+        this.code = code;
+        this.flag = flag;
+    }
+
     public Text getCode() {
         return code;
     }
