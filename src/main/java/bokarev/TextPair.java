@@ -22,6 +22,7 @@ public class TextPair implements WritableComparable<TextPair>{
         this.code = code;
         this.flag = second;
     }
+
     public TextPair(String code, String second){
         this.code =new Text(code);
         this.flag =new Text(second);
