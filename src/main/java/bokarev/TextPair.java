@@ -39,13 +39,6 @@ public class TextPair implements WritableComparable<TextPair>{
         return second;
     }
 
-    public void setSecond(Text second) {
-        this.second = second;
-    }
-    public void set(Text first,Text second){
-        this.first=first;
-        this.second=second;
-    }
 
     @Override
     public boolean equals(Object o) {
