@@ -13,15 +13,7 @@ public class TextPair implements WritableComparable<TextPair>{
     public  Text code;
     public  Text flag;
 
-    public  TextPair(){
-        this.code=new Text();
-        this.flag =new Text();
-    }
-
-    public TextPair(Text code, Text second) {
-        this.code = code;
-        this.flag = second;
-    }
+    
 
     public TextPair(String code, String second){
         this.code =new Text(code);

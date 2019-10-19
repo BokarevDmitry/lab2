@@ -11,14 +11,10 @@ public class AirportMapper extends Mapper<LongWritable, Text, TextPair, Text> {
     protected void map(LongWritable key, Text value, Mapper.Context context) throws IOException, InterruptedException {
         String[] pieces = CSVParser.parseAirports(value);
         if (!CSVParser.getAirCode(pieces).contains("Code")) {
-
             String airportName = CSVParser.getAirportName(pieces);
-            airportName = CSVParser.removeQuotes(airportName);
-
             String airportCode = CSVParser.getAirCode(pieces);
-            airportCode = CSVParser.removeQuotes(airportCode);
 
-            context.write(new TextPair(airportCode, "0"), new Text(airportName));
+            context.write(new TextPair(CSVParser.removeQuotes(airportCode), "0"), new Text(CSVParser.removeQuotes(airportName)));
         }
     }
 }
